@@ -3,10 +3,10 @@
  dependency for testing
  */
 
-package com.example;
+package com.davidstanke.util;
 
-class BazelGCBUtil {
-	
+public class BazelGCBUtil {
+
 	// utility to concatenate strings (yes, it's silly)
 	public static String concat(String s1, String s2) {
 		return s1 + s2;
